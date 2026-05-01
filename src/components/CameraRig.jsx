@@ -23,7 +23,7 @@ const CameraRig = () => {
     
     // Get position on curve
     const point = curve.getPointAt(offset);
-    state.camera.position.lerp(point, 0.1);
+    state.camera.position.lerp(point, 0.2);
     
     // Look ahead logic or look at center
     const lookAtPoint = new THREE.Vector3(0, -2, 0);

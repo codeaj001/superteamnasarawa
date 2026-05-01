@@ -37,7 +37,7 @@ function App() {
           <fog attach="fog" args={["#000000", 10, 50]} />
 
           <Suspense fallback={null}>
-            <ScrollControls pages={pages} damping={0.3}>
+            <ScrollControls pages={pages} damping={0.15}>
               <Experience />
               <UIOverlay isLoaded={isLoaded} />
             </ScrollControls>
